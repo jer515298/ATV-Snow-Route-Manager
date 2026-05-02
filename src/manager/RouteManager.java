@@ -144,4 +144,13 @@ public class RouteManager {
 
         return nextStop;
     }
+    
+    public Queue<RouteStop> getQueue() {
+        return stopQueue;
+    }
+
+    public Stack<CompletedStop> getCompletedStack() {
+        return completedStack;
+    }
+    
 }
